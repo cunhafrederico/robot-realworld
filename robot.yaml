@@ -1,0 +1,14 @@
+tasks:
+  all-tests:
+    shell: python -W ignore -m robot --variablefile ./commons/local_vars.json -d ./result ./
+  pabot:
+    shell:
+      pabot --processes all --testlevelsplit --variablefile ./commons/local_vars.json -d ./result home
+condaConfigFile: conda.yaml
+artifactsDir: result
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
