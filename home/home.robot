@@ -23,6 +23,7 @@ CT01 - Verify if homepage is loaded correctly with not logged in user
     And get an evidence
 
 CT02 - Verify if homepage is loaded correctly with logged in user
+    [Tags]    smoke
     Given that I access the realworld 'Sign up' page
     When I register an user
     And the menu item 'Home' must be visible and point to the right link

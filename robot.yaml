@@ -1,10 +1,16 @@
 tasks:
   local:
     shell: 
-      pabot --processes all --testlevelsplit --variablefile ./commons/local_vars.json -d ./result ./login/login.robot
+      pabot --processes all --testlevelsplit --variablefile ./commons/local_vars.json -d ./result ./
+  local-smoke:
+    shell: 
+      pabot --processes all --testlevelsplit --variablefile ./commons/local_vars.json -d ./result -i smoke ./
   dev:
     shell: 
-      pabot --processes all --testlevelsplit --variablefile ./commons/dev_vars.json -d ./result ./home/home.robot
+      pabot --processes all --testlevelsplit --variablefile ./commons/dev_vars.json -d ./result ./
+  dev-smoke:
+    shell: 
+      pabot --processes all --testlevelsplit --variablefile ./commons/dev_vars.json -d ./result -i smoke ./
 condaConfigFile: conda.yaml
 artifactsDir: result
 PATH:

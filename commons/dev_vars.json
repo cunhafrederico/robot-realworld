@@ -1,5 +1,5 @@
 {
-    "app_url":  "https://realworld.svelte.dev/",
+    "app_url":  "https://realworld.svelte.dev",
     "valid_email":  "robot5000@robot5000.com",
     "valid_password":    "123456",
     "invalid_email":  "robot5001@robot5001.com",

@@ -6,12 +6,14 @@ Resource    login.resource.robot
 
 *** Test Cases ***
 CT01 - Login with valid username and password
+    [Tags]    smoke
     Given that I access the realworld 'Sign in' page
     When I login in with valid email and password
     Then I will be redirected to 'Home' page
     And get an evidence
 
 CT02 - Login with valid username and invalid password
+    [Tags]    smoke
     Given that I access the realworld 'Sign in' page
     When I login in with valid email and invalid password
     Then login page will show a big message 'Something went wrong'
