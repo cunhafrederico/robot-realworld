@@ -1,13 +1,17 @@
-# RealWorld E2E Test Automation
+# RealWorld Functional Tests
+## Documentation ##
+- [Functionality and Test Cases and Bug Mapping](https://app.wisemapping.com/c/maps/1556416/public)
+Obs.: Use space bar to collapse and uncollapse tree's branch
 
+# RealWorld E2E Test Automation
 ## Abstract ##
 We are running a simple implementation of "RCC + Robot FrameWork + BrowserLibrary (PlayWright API) + Pabot" to get tests E2E running at any configuration platform with python pre installed.
-* RCC is our virtual environment
+* RCC is our virtual environment tool
 * Robot Framework is our gherkin interface to write and reuse some important pieces of the tests, variables etc
 * BrowserLibrary is a python implementation to use PlayWright API to execute web browser instructions as writen in our tests
 * Pabot is a parallelisation tool to run test in a suite and/or test level
 
-## Documentations ##
+## Documentation ##
 - [RCC](https://robocorp.com/docs/rcc/overview)
 - [RobotFramework](https://robotframework.org/)
     - [Standard and Built-in Libraries](https://robotframework.org/robotframework/#standard-libraries)
