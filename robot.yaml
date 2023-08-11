@@ -1,9 +1,10 @@
 tasks:
-  home:
-    shell: python -W ignore -m robot --variablefile ./commons/local_vars.json -d ./result ./home/home.robot
-  pabot:
-    shell:
-      pabot --processes all --testlevelsplit --variablefile ./commons/local_vars.json -d ./result ./home/home.robot
+  local:
+    shell: 
+      pabot --processes all --testlevelsplit --variablefile ./commons/local_vars.json -d ./result ./login/login.robot
+  dev:
+    shell: 
+      pabot --processes all --testlevelsplit --variablefile ./commons/dev_vars.json -d ./result ./home/home.robot
 condaConfigFile: conda.yaml
 artifactsDir: result
 PATH:

@@ -7,6 +7,7 @@ dependencies:
   - pip:
       - robotframework-browser==16.3.0
       - robotframework-pabot==2.16.0
+      - robotframework-faker==5.0.0
 
 rccPostInstall:
   - rfbrowser init
