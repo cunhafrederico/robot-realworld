@@ -1,7 +1,3 @@
 {
-    "app_url":  "http://localhost:5173",
-    "links": { 
-        "Home": "/",
-        "New Post": "/editor"
-    }
+    "app_url":  "http://localhost:5173"
 }
