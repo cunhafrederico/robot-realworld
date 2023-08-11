@@ -3,6 +3,10 @@
 - [Functionality and Test Cases and Bug Mapping](https://app.wisemapping.com/c/maps/1556416/public)
 Obs.: Use space bar to collapse and uncollapse tree's branch
 
+## LightHouse Parameter Report ##
+In August 11 was generated a lighthouse report to analyse some points of improvement and are they:
+- ionicons.min.css from ionicframework.com and main.css from productionready.com causes a high render blocking for the first contentful page. Try to use more performatic CDN to hosting to those static files.
+
 # RealWorld E2E Test Automation
 ## Abstract ##
 We are running a simple implementation of "RCC + Robot FrameWork + BrowserLibrary (PlayWright API) + Pabot" to get tests E2E running at any configuration platform with python pre installed.
